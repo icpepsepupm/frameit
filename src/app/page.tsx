@@ -68,7 +68,7 @@ Save the date — the future begins October 18 at PUP Bulwagang Balagtas. 🧡
 
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const frameRef = useRef<HTMLImageElement | null>(null);
-  const frameSrc = "/frame.png";
+  const frameSrc = "/frame2.png";
   const colors = {
     bg: "bg-[#FFFFFF]",
     headerBg: "bg-[#05002D]",
