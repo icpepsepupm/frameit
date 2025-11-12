@@ -38,22 +38,18 @@ export default function ImageFrameOverlay() {
     y: 0,
   });
   const [showSettings, setShowSettings] = useState<boolean>(false);
-  const caption = `𝐓𝐡𝐞 𝐟𝐮𝐭𝐮𝐫𝐞 𝐬𝐭𝐚𝐫𝐭𝐬 𝐰𝐢𝐭𝐡 𝐮𝐬. 𝐓𝐡𝐞 𝐢𝐧𝐧𝐨𝐯𝐚𝐭𝐨𝐫𝐬, 𝐭𝐡𝐞 𝐯𝐢𝐬𝐢𝐨𝐧𝐚𝐫𝐢𝐞𝐬, 𝐭𝐡𝐞 𝐂𝐨𝐄𝐛𝐢𝐠𝐚𝐧𝐬. ⚙️
+  const caption = `⚙️ CPEYESTA 2025 IS UP AND TURNING! ⚙️
 
-I’m [Name] from BSCpE [Year & Section], ready to prove that CoEbigans are built to innovate, lead, and excel.
+The system’s running on Fiesta Mode — no bugs, just good vibes! 💚💛
+From circuits to culture, from code to celebration — we’re proving that engineering isn’t just about logic, it’s about heart, creativity, and connection. 💾❤️
 
-As we open a new chapter through this year’s PUP CpE Freshmen Orientation, General Assembly, and Hardhatting Ceremony, with the theme “𝐈𝐧𝐧𝐨𝐯𝐚𝐭𝐢𝐧𝐠 𝐁𝐞𝐲𝐨𝐧𝐝 𝟐𝟎𝟐𝟓: 𝐆𝐮𝐢𝐝𝐞𝐝 𝐄𝐦𝐩𝐨𝐰𝐞𝐫𝐦𝐞𝐧𝐭, 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐦𝐞𝐧𝐭, 𝐚𝐧𝐝 𝐑𝐞𝐜𝐨𝐠𝐧𝐢𝐭𝐢𝐨𝐧 𝐭𝐨𝐰𝐚𝐫𝐝 𝐚 𝐅𝐮𝐭𝐮𝐫𝐞-𝐑𝐞𝐚𝐝𝐲 𝐂𝐨𝐦𝐩𝐮𝐭𝐞𝐫 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠 𝐏𝐫𝐨𝐠𝐫𝐚𝐦,” we move forward together, committed to growth, excellence, and innovation in the field of Computer Engineering.
+This fiesta, we’re not just compiling programs, we’re compiling memories that last a lifetime! 🎉✨
+So gear up, CpE fam — let’s debug the stress, upload the fun, and run joy.exe all week long! 🚀
 
-Let’s light up the feed with innovation! Join the DP Blast and showcase your CoEbigan pride as we gear up for a future built to innovate.
-
-Join the DP blast through this link:
--
-
-Save the date — the future begins October 18 at PUP Bulwagang Balagtas. 🧡
-
-#CpEGeneralAssembly2025
-#InnovatingBeyond2025
-#PUPACCESS #ICPEPSEPUP`;
+#CPEYESTA2025
+#CodeTheCulture 
+#TechMeetsTradition 
+#EngineeredForFun`;
   const [captionCopied, setCaptionCopied] = useState<boolean>(false);
   const [scaleInputValue, setScaleInputValue] = useState<string>("1");
   const [rotationInputValue, setRotationInputValue] = useState<string>("0");
